@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Leto', sans-serif;
+}
+
+body {
+    height: 100vh;
+    background: url('https://img.freepik.com/free-photo/abstract-background-water-swimming-pool_1357-283.jpg?w=1060&t=st=1699110889~exp=1699111489~hmac=ea7430d2d3ea0d219375b42a93f4d37dea098f245e3f59e04f0b73f657ee15e5') no-repeat center center/cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 40%;
+    height: 250px;
+    background-color: white;
+    border-radius: 30px;
+    box-shadow: 0 0 3px;
+}
+
+#timer {
+    width: 100%;
+    font-size: 4rem;
+    text-align: center;
+    margin: 0px auto;
+    padding: 35px;
+}
+
+.buttons {
+    text-align: center;
+    margin-top: 40px;
+}
+
+button {
+    margin: 0 10px;
+    border: 0px;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+button i {
+    font-size: 2rem;
+    padding: 10px;
+    color: #fff;
+    width: 50px;
+}
+
+#play {
+    background-color: green;
+}
+
+#pause {
+    background-color: orange;
+}
+
+#reset {
+    background-color: red;
+}
